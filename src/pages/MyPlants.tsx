@@ -19,7 +19,6 @@ import { loadPlant, PlantProps, removePlant } from '../libs/storage';
 import fonts from '../styles/fonts';
 import { PlantCardSecondary } from '../components/PlantCardSecondary';
 import { Load } from '../components/Load';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
 export function MyPlants() {
   const [myPlants, setMyPlants] = useState<PlantProps[]>([]);

@@ -18,7 +18,6 @@ import api from '../services/api';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
 interface EnviromentProps {
   key: string;
